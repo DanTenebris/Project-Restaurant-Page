@@ -7,9 +7,9 @@ module.exports = {
     index: './src/index.js',
   },
   /* devtool: 'inline-source-map', */
-  devServer: {
+  /* devServer: {
     static: './dist',
-  },
+  }, */
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Aunt Noe',
@@ -32,7 +32,7 @@ module.exports = {
       },
     ],
   },
-  optimization: {
+  /* optimization: {
     runtimeChunk: 'single',
-  },
+  }, */
 };
